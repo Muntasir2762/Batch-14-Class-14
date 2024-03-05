@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url('images/cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    overflow: hidden;
+}
+
+.project{
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.project-item{
+    float: left;
+    height: 200px;
+    width: 32.8%;
+    background-image: url('images/bg4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    margin: 3px;
+}
+
+/*Responsive...*/
+
+@media screen and (max-width:1200px){
+    .hero{
+        color: green;
+    }
+}
+
+@media screen and (max-width:1124px) {
+    .project-item{
+        float: left;
+        height: 200px;
+        width: 32.5%;
+        background-image: url('images/bg4.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        color: aliceblue;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .project-item{
+        float: left;
+        height: 200px;
+        width: 40%;
+        background-image: url('images/bg4.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        color: aliceblue;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .project-item{
+        float: left;
+        height: 200px;
+        width: 100%;
+        background-image: url('images/bg4.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        color: aliceblue;
+        margin: 3px;
+    }
+}
