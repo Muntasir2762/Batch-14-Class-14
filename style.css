@@ -44,45 +44,18 @@
 
 @media screen and (max-width:1124px) {
     .project-item{
-        float: left;
-        height: 200px;
         width: 32.5%;
-        background-image: url('images/bg4.jpg');
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        text-align: center;
-        color: aliceblue;
-        margin: 3px;
     }
 }
 
 @media screen and (max-width:500px) {
     .project-item{
-        float: left;
-        height: 200px;
         width: 40%;
-        background-image: url('images/bg4.jpg');
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        text-align: center;
-        color: aliceblue;
-        margin: 3px;
     }
 }
 
 @media screen and (max-width:320px) {
     .project-item{
-        float: left;
-        height: 200px;
         width: 100%;
-        background-image: url('images/bg4.jpg');
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        text-align: center;
-        color: aliceblue;
-        margin: 3px;
     }
 }
